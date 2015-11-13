@@ -80,14 +80,14 @@ body {
 	}
 
 	.slider{
-		width: 421px;
-		height: 300px;
 		margin: 5px auto;
 		background: transparent;
 		padding-top: 20px;
 		padding-bottom: 20px;
 		}
 	.slider img{
+	    width: 800px;
+		height: 450px;
 		position: center;
 	}
 

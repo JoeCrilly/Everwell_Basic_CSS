@@ -130,64 +130,109 @@ body {
 	.why-pasadena {
 		font-family: "Century Gothic";
 	}
+
+	.passvid{
+  
+	  list-style: none;
+	  margin: 0;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+
+	  -webkit-flex-flow: row wrap;
+	  justify-content: space-around;
+
+	}
+	.evntgall{
+	  list-style: none;
+	  margin: 0;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+
+	  -webkit-flex-flow: row wrap;
+	  justify-content: space-around;  
+	}
 	  
 	#container1 {
-		position: relative;
-		display: inline-block;
-	}
+    position: relative;
+    display: inline-block;
+  }
 
-	#container1:hover #image{
-		color: #CC181E;
-		opacity: 1;
-	}
+  #container1:hover #image{
+    color: #CC181E;
+    opacity: 1;
+  }
 
-	#play {
-		background: url('images/play-icon.png') center  no-repeat;
-		margin: -185px 2px 2px 2px;
-		height: 140px;
-		position: relative;
-		z-index: 10;
-	}
-	.caption > h2{
-	  padding-top:35px;
-	  text-align: center;
-	  font-family: "Century Gothic";
-	}
-	.about-videos {
-	  width: 220px;
-	  height: 220px;
-	  border: 0px;
-	  border-radius: 100%;
-	  opacity: 0.5;
-	}
+  #play {
+    background: url('images/play-icon.png') center  no-repeat;
+    margin: -185px 2px 2px 2px;
+    height: 140px;
+    position: relative;
+    z-index: 10;
+  }
+  .caption > h2{
+    padding-top:35px;
+    text-align: center;
+    font-family: "Century Gothic";
+  }
+  .about-videos {
+    width: 220px;
+    height: 220px;
+    border: 0px;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
 
-	.gallery-box{
-		padding-top: 1%;
-	}
-	.gallery {
-		font-family: "Century Gothic";
-		}
+  .gallery-box{
+    padding-top: 1%;
+    position: relative;
+    display: inline-block;
+  }
+  .gallery {
+    font-family: "Century Gothic";
+    }
 
-	.events-list {
-		width: 450px;
-		height: 245px;
-		overflow: auto;
-		margin-top: 0px;
-		border: 3px solid black;
-		
-	}	
+  .events-list {
+    position: relative;
+    display: inline-block;
+    width: 450px;
+    height: 245px;
+    overflow: auto;
+    margin-top: 0px;
+    border: 3px solid black;
+    
+  } 
 
-	.event {
-	  width: 100%;
-	  margin-left: -20px;
-	  margin-top: 5px;
-	  margin-bottom: 5px;
-	  width: 90%;
-	  text-align: left;
-	  list-style-type: none;
-	  border-bottom: 2px solid black;
-	  font-family: "Century Gothic";
+  .event {
+    width: 100%;
+    margin-left: -20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    text-align: left;
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    font-family: "Century Gothic";
+  }
+ /* the following is for tablet --to be removed after css for tablet is complete  */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+.passvid {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+
+    text-align: center;
+    padding: 10px; 	
 	}
+.evntgall {
+    display: none;
+    }
+	
+}
 	
 /*-------Meet the Teams/Regional Director-------*/
 

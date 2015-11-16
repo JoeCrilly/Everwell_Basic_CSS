@@ -75,25 +75,39 @@ body {
 /*-------What Is Everwell-------*/
 
 	.what_is_everwell{
-	background-color: white; 
-	font-family: "Century Gothic";
+		background-color: white; 
+		font-family: "Century Gothic";
 	}
 
 	.slider{
-		margin: 5px auto;
+		width: 750px;
+		height: 430px;
+		margin: 10px auto;
 		background: transparent;
-		padding-top: 20px;
-		padding-bottom: 20px;
 		}
+
 	.slider img{
-	    width: 800px;
-		height: 450px;
+
+	    width: 750px;
+		height: 410px;
 		position: center;
 	}
 
+	.what-image1{
+		display: block;
+		width: 750px;
+		height: 410px;
+		position: center;
+   }
+
+   .what-image2{
+    	display: none;
+   } 
+
+
 	.no-focus-border:focus{
-	  border: transparent;
-	  outline: 0 none;
+		border: transparent;
+	 	outline: 0 none;
 	}
 
 
@@ -103,6 +117,109 @@ body {
 		text-align: center;
 	}
 
+	/* Mobile size Portrait CSS*/
+	@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) { 
+
+		.slider {
+			width: 430px;
+			height: 460px;
+			margin: 10px auto;
+			background: transparent;
+		}
+
+		.slider img {
+	    	width: 430px;
+			height: 430px;
+			position: center;
+		}
+
+   		.what-image1 {
+   	   		display: none;
+   		}
+
+   		.what-image2 {
+    		display: block;
+    		width: 430px;
+			height: 430px;
+			position: center;	
+   		}
+
+		#wrapper {
+			font: 8pt normal Arial, sans-serif;
+			height: auto;
+			text-align: center;
+		}
+	}
+
+	/* Tablet size portrait CSS*/
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+		.slider {
+			width: 633px;
+			height: 420px;
+			margin: 10px auto;
+			background: transparent;
+		}
+
+		.slider img {
+	    	width: 633px;
+			height: 380px;
+			position: center;
+		}
+
+		.what-image1 {
+			display: block;
+			width: 633px;
+			height: 380px;
+			position: center;
+   		}
+
+		.what-image2 {
+    		display: none;
+   		}
+
+		#wrapper {
+			font: 10pt normal Arial, sans-serif;
+			height: auto;
+			text-align: center;
+		}
+	}
+/* 
+		@media only screen and (min-width: 320px) and (max-width: 850px) and (orientation: portrait) { 
+		zoom in and out on desktop
+
+		.slider{
+		width: 300px;
+		height: 330px;
+		margin: 10px auto;
+		background: transparent;
+		}
+
+		.slider img {
+	    width: 300px;
+		height: 300px;
+		position: center;
+		}
+
+   		.what-image1{
+   	   	display: none;
+   		}
+
+   		.what-image2{
+    	display: block;
+    	width: 300px;
+		height: 300px;
+		position: center;	
+   		}
+
+
+		#wrapper {
+		font: 8pt normal Arial, sans-serif;
+		height: auto;
+		text-align: center;
+		}
+
+	} */
 
 /*-------Businesses need you-------*/	
 

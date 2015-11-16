@@ -565,10 +565,9 @@ body {
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 h2.position-caption {
-  font-family: FreesiaUPC;
+  font-family: "Century Gothic";
   text-align: center;
-  font-size: 350%;
-  letter-spacing: 4px;
+  font-size: 200%;
   margin-bottom: -15px;
 }
 
@@ -871,7 +870,7 @@ a.btn-apply2:link {
 }
 
 .caption-hover .blur{
-	background-color: rgba(0, 0, 0, 1);
+	background-color: rgba(51, 51, 51, 1);
 	height: 300px;
 	width: 400px;
 	z-index: 5;

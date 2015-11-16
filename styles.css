@@ -191,6 +191,34 @@ body {
 	
 /*-------Meet the Teams/Regional Director-------*/
 
+@media only screen and (max-device-width: 1024px){
+
+
+  .team{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("images/Metro 2.jpg");
+}
+
+  #content > h2 {
+	  font-size: 40px;
+}
+
+.title1{
+  width:6%;
+}
+
+.title2{
+  width:6%;
+}
+
+  .regdir{
+    display: none;
+  }
+}
+
+
 	.team{
 		background-image: url("images/Metro 2.jpg");
 		background-size: 100% 100%;

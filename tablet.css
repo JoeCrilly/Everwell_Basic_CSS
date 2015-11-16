@@ -1,4 +1,6 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+
+/*-------------Why Pasadena-------------*/
 .passvid {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -10,4 +12,29 @@
     display: none;
     }
 	
+}
+
+/*-------------Meet the Teams-------------*/
+.team{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("images/Metro 2.jpg");
+}
+
+  #content > h2 {
+	  font-size: 40px;
+}
+
+.title1{
+  width:6%;
+}
+
+.title2{
+  width:6%;
+}
+
+  .regdir{
+    display: none;
+  }
 }

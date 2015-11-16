@@ -1,0 +1,13 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+.passvid {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+
+    text-align: center;
+    padding: 10px; 	
+	}
+.evntgall {
+    display: none;
+    }
+	
+}

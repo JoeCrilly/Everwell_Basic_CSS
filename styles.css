@@ -44,6 +44,11 @@ body {
 		margin-top: 100px;
 		padding-left: 30%;
 	}
+	.Everwell_logo> img{
+		height: 250px;
+		width:250px;
+		
+	}
 	
 	.Everwell_text{
 		font-family: "Century Gothic";
@@ -58,7 +63,7 @@ body {
 		position: absolute;
 		margin-top: 470px;
 		margin-left: 45%;
-		height: 50px;
+		height: 80px;
 		width: 150px;
 		font-size: 13px;
 		font-weight: 800;
@@ -73,6 +78,113 @@ body {
 		border: 2px solid rgba(255,255,255,.5);
 	}
 	
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait){
+	.Splash{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow: hidden;
+		}
+		
+	.Splash > img{
+		position: relative;
+		z-index: 1;
+	}
+	
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 30px;
+		padding-left: 2%;
+	}
+	.Everwell_logo> img{
+		height: 150px;
+		width:150px;
+		
+	}
+	
+	.Everwell_text{
+		font-family: "Century Gothic";
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	
+	.button{
+		z-index: 5;
+		position: absolute;
+		margin-top: 470px;
+		margin-left: 30%;
+		height: 80px;
+		width: 150px;
+		font-size: 13px;
+		font-weight: 800;
+		text-align:center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-family: "Century Gothic";
+		color: white;
+		background:rgba(0, 0, 0, .75);
+		height: auto;
+		width: auto;
+		border: 2px solid rgba(255,255,255,.5);
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape){
+	.Splash{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow: hidden;
+		}
+		
+	.Splash > img{
+		position: relative;
+		z-index: 1;
+	}
+	
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 10px;
+		padding-left: 6%;
+	}
+	.Everwell_logo> img{
+		height: 150px;
+		width:150px;
+		
+	}
+	
+	.Everwell_text{
+		font-family: "Century Gothic";
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		margin-top: 5px;
+		font-size: 15;
+	}
+	
+	.button{
+		z-index: 5;
+		position: absolute;
+		margin-top: 280px;
+		margin-left: 37%;
+		height: 80px;
+		width: 150px;
+		font-size: 13px;
+		font-weight: 800;
+		text-align:center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-family: "Century Gothic";
+		color: white;
+		background:rgba(0, 0, 0, .75);
+		height: auto;
+		width: auto;
+		border: 2px solid rgba(255,255,255,.5);
+	}
+}
 /*-------What Is Everwell-------*/
 
 	.what_is_everwell{
@@ -452,7 +564,34 @@ body {
   }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait){
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation:portrait){
+
+
+  .team{
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("images/Metro 2.jpg");
+}
+
+
+  #content > h2 {
+	  font-size: 40px;
+}
+
+.title1{
+  width:6%;
+}
+
+.title2{
+  width:6%;
+}
+
+  .regdir{
+    display: none;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
   .team{
     display: none;
 	}

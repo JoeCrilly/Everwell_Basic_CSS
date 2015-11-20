@@ -119,18 +119,18 @@ body {
 	}
 
 	/* Mobile size Portrait CSS*/
-	@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) { 
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) { 
 
 		.slider {
-			width: 430px;
-			height: 460px;
+			width: 260px;
+			height: 230px;
 			margin: 10px auto;
 			background: transparent;
 		}
 
 		.slider img {
-	    	width: 430px;
-			height: 430px;
+	    	width: 260px;
+			height: 210px;
 			position: center;
 		}
 
@@ -140,8 +140,42 @@ body {
 
    		.what-image2 {
     		display: block;
-    		width: 430px;
-			height: 430px;
+    		width: 260px;
+			height: 210px;
+			position: center;	
+   		}
+
+		#wrapper {
+			font: 8pt normal Arial, sans-serif;
+			height: auto;
+			text-align: center;
+		}
+	}
+
+	/* Mobile size Landscape CSS*/
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) { 
+
+		.slider {
+			width: 280px;
+			height: 250px;
+			margin: 10px auto;
+			background: transparent;
+		}
+
+		.slider img {
+	    	width: 280px;
+			height: 230px;
+			position: center;
+		}
+
+   		.what-image1 {
+   	   		display: none;
+   		}
+
+   		.what-image2 {
+    		display: block;
+    		width: 280px;
+			height: 230px;
 			position: center;	
    		}
 

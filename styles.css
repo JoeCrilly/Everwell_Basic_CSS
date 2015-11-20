@@ -565,10 +565,9 @@ body {
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 h2.position-caption {
-  font-family: FreesiaUPC;
+  font-family: "Century Gothic";
   text-align: center;
-  font-size: 350%;
-  letter-spacing: 4px;
+  font-size: 150%;
   margin-bottom: -15px;
 }
 

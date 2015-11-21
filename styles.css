@@ -564,8 +564,20 @@ body {
 .evntgall {
     display: none;
     }
+
+    .tablet-display{
+    	display: none;
+    }
 	
 }
+
+	/* Tablet size Landscape CSS*/
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: Landscape) {
+		.tablet-display{
+			display: none;
+		}
+	}
+
   @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait){
 .why-pasadena{
 

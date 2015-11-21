@@ -185,6 +185,74 @@ body {
 		border: 2px solid rgba(255,255,255,.5);
 	}
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait){
+
+		
+	
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 30px;
+		padding-left: 2%;
+	}
+	.Everwell_logo> img{
+		height: 150px;
+		width:150px;
+		
+	}
+
+	.button{
+		z-index: 5;
+		position: absolute;
+		margin-top: 470px;
+		margin-left: 30%;
+
+	}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 200px;
+		padding-left: 2%;
+		font-size: 25;
+	}
+	.Everwell_logo> img{
+		height: 250px;
+		width:250px;
+		
+	}
+	
+	.button{
+		z-index: 5;
+		position: absolute;
+		margin-top:768px;
+		margin-left: 42%;
+	}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 150px;
+		padding-left: 9%;
+		font-size: 25;
+	}
+	.Everwell_logo> img{
+		height: 250px;
+		width:250px;
+		
+	}
+	
+	.button{
+		z-index: 5;
+		position: absolute;
+		margin-top:600px;
+		margin-left: 42%;
+	}
+}
 /*-------What Is Everwell-------*/
 
 	.what_is_everwell{
@@ -600,11 +668,15 @@ body {
 	}
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait){
   .team{
     display: none;
+		}
+	.regdir{
+	display: none;
+	}
 }
-}
+
 
 
 	.team{

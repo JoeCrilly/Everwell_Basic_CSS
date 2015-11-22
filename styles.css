@@ -1134,7 +1134,7 @@ a.btn-apply2:link {
 } }
 
 /* Landscape phones and down */
-@media only screen and (min-width: 320px) and (max-width: 568px) { 
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:portrait) { 
 
 .grid { 
 	width:420%;
@@ -1162,6 +1162,33 @@ a.btn-apply2:link {
 	position:relative;
 	bottom:25px;
 }}
+
+/* Landscape phones and down */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:landscape) { 
+
+.grid { 
+	width:420%;
+	max-width: 101%;
+	margin: 0 auto;
+}
+		 
+.grid li {
+	display: inline-table;
+	width: 170px;
+	margin-bottom:10px;	
+	position: relative;			
+} 
+	 
+.grid li {	
+	margin-right:-20px;	
+	margin-left:-25px;			
+} 
+
+.grid li img {	
+	width:80%;	
+}
+
+}
 
 
 /* Caption Hover for available position section  */

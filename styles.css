@@ -7,11 +7,13 @@ html,
 body {
     width: 100%;
     height: 100%;
-	overflow: visable;
+	margin: 0px;
+	
 }
 
 body {
     font-family: "Century Gothic";
+
 }
 
 .navbar {
@@ -53,7 +55,7 @@ body {
 		width: 100%;
 		height: 100%;
 		z-index: 1;
-		overflow: hidden;
+		overflow: visable;
 		}
 
 

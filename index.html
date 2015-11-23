@@ -1,3 +1,4 @@
+<!doctpye html>
 <html>
 
 <head>
@@ -7,24 +8,34 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/magnific-popup.css">
-	
+
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	
+
 	<script src="javascript/parallax.js/parallax.js"></script>
-	
+
     <script src="javascript/jquery.magnific-popup.js"></script>
 
-    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 	<script src="javascript/modernizr.custom.js"></script>
 	<meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 
 
-	<header>
+	<header class="header">
+		<div class = "navbar">
+			<ul class="menu">
+				<li><a href="#what_is_everwell">WHAT IS EVERWELL</a></li>
+				<li><a href="#why-pasadena">WHY PASADENA</a></li>
+				<li><a href="#team">MEET THE TEAMS</a></li>
+				<li><a href="#careers">CAREERS</a></li>
+				<li><a href="#contact-us">CONTACT US</a></li>
+				<li><a href="">LOG IN</a></li>
+			</ul>
+		</div>
 		<div class = "Everwell_logo" align = "center" >
 			<img src="images/logo.png">
 			<div class = "Everwell_text">
@@ -33,23 +44,42 @@
 			</div>
 		</div>
 		<a href="" class="button">Find Out More</a>
-		
+
 		<div class="Splash">
 			<img src="images/City Hall 4.jpg" width = "100%" height = "100%">
 			<img src="images/Cyclavia 2.jpg"  width = "100%" height = "100%">
 			<img src="images/Old Town 1.jpg"  width = "100%" height = "100%">
 		</div>
-		
+
 		<script type="text/javascript" src ="javascript/SplashPage.js"></script>
 		<script type="text/javascript" src="slick/slick.min.js"></script>
-				
+
+		<script>
+		$(document).ready(function(){
+				 var scroll_start = 0;
+				 var startchange = $('#startchange');
+				 var offset = startchange.offset();
+					if (startchange.length){
+				 $(document).scroll(function() {
+						scroll_start = $(this).scrollTop();
+						if(scroll_start > offset.top) {
+							$('.navbar').css({'background-color': 'white', 'box-shadow': '3px 3px 3px #888888'});
+							$('.menu > li > a').css('color', 'black');
+						 } else {
+							 $('.navbar').css({'background-color': 'transparent', 'box-shadow': 'none'});
+							 $('.menu > li > a').css('color', '#333333');
+						 }
+				 });
+					}
+			});
+			</script>
 	</header>
-	
+
 	<body>
 	<!---------------------------What is Everwell-------------------->
 
 
-		<div class = "what_is_everwell">
+		<div class = "what_is_everwell" id="startchange">
 			<h2 align = "center"><strong>WHAT IS EVERWELL?</strong></h2>
 			<div class="slider" data-scrollreveal="enter right after 0.15s over 1s">
 				<div id="wrapper">
@@ -67,7 +97,7 @@
 		<div class="parallax-window business-image" data-parallax="scroll" data-image-src="./images/DividerImage.jpg">
 			<div class="business-text"><h1 align = "center"><br><br><br><br><br>BUSINESSES NEED YOU</h1></div>
 		</div>
-		
+
 		<script src="WhatIsEverwell.js"></script>
 		<script src="javascript/parallax.js/parallax.js"></script>
 
@@ -105,12 +135,12 @@
 		<tr>
 			<td width = "10%"></td>
 			<td align = "center">
-				<div class = "gallery-box"><object name="Slideshow" id="Slideshow" width="500" height="250"data-scrollreveal="enter left after 0.15s over 1s" align="middle" 
+				<div class = "gallery-box"><object name="Slideshow" id="Slideshow" width="500" height="250"data-scrollreveal="enter left after 0.15s over 1s" align="middle"
 											   codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
 											   <param name="movie" value="https://www.shutterfly.com/flashapps/flashslideshow/Slideshow.swf" />
 											   <param name="flashvars" value="configurl=%2F%2Fcmd.shutterfly.com%2Fcommands%2Fpictures%2Fgetshareoutslideshowconfig%3Fsite%3Dtestsiteep%26page%3Dtestsiteep%2Fpictures%26node%3D8" />
-											   <param name="allowscriptaccess" value="always" /><embed id="Slideshow"  width="500" height="249" name="Slideshow" align="middle"  quality="high"  
-											   type="application/x-shockwave-flash"  flashvars="configurl=%2F%2Fcmd.shutterfly.com%2Fcommands%2Fpictures%2Fgetshareoutslideshowconfig%3Fsite%3Dtestsiteep%26page%3Dtestsiteep%2Fpictures%26node%3D8" 
+											   <param name="allowscriptaccess" value="always" /><embed id="Slideshow"  width="500" height="249" name="Slideshow" align="middle"  quality="high"
+											   type="application/x-shockwave-flash"  flashvars="configurl=%2F%2Fcmd.shutterfly.com%2Fcommands%2Fpictures%2Fgetshareoutslideshowconfig%3Fsite%3Dtestsiteep%26page%3Dtestsiteep%2Fpictures%26node%3D8"
 											   pluginspage="http://www.adobe.com/go/getflashplayer"  allowscriptaccess="always"  allowfullscreen="true"  bgcolor="#869ca7"  src="https://www.shutterfly.com/flashapps/flashslideshow/Slideshow.swf">
 											   </embed>
 											</object>
@@ -118,7 +148,7 @@
 			</td>
 			<td width = "10%"></td>
 			<td align = "center">
-				
+
 			<ul class="events-list" data-scrollreveal="enter right after 0.25s over 3s">
 				<li class="event">
 					<strong>WED JULY 8, 2015 - BOWLING BASH</strong>
@@ -156,7 +186,7 @@
 						<div id="play"></div>
 					</a>
 
-					<div class="caption"><h2>OLD TOWN</h2></div> 
+					<div class="caption"><h2>OLD TOWN</h2></div>
 				</div>
 			</li>
 			<li>
@@ -176,12 +206,12 @@
 	<div class="tablet-display">
 		<ul class="evntgall">
 			<li>
-				<div class = "gallery-box"><object name="Slideshow" id="Slideshow" width="500" height="250"data-scrollreveal="enter left after 0.15s over 3s" align="middle" 
+				<div class = "gallery-box"><object name="Slideshow" id="Slideshow" width="500" height="250"data-scrollreveal="enter left after 0.15s over 3s" align="middle"
 												   codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
 												   <param name="movie" value="https://www.shutterfly.com/flashapps/flashslideshow/Slideshow.swf" />
 												   <param name="flashvars" value="configurl=%2F%2Fcmd.shutterfly.com%2Fcommands%2Fpictures%2Fgetshareoutslideshowconfig%3Fsite%3Dtestsiteep%26page%3Dtestsiteep%2Fpictures%26node%3D8" />
-												   <param name="allowscriptaccess" value="always" /><embed id="Slideshow"  width="500" height="249" name="Slideshow" align="middle"  quality="high"  
-												   type="application/x-shockwave-flash"  flashvars="configurl=%2F%2Fcmd.shutterfly.com%2Fcommands%2Fpictures%2Fgetshareoutslideshowconfig%3Fsite%3Dtestsiteep%26page%3Dtestsiteep%2Fpictures%26node%3D8" 
+												   <param name="allowscriptaccess" value="always" /><embed id="Slideshow"  width="500" height="249" name="Slideshow" align="middle"  quality="high"
+												   type="application/x-shockwave-flash"  flashvars="configurl=%2F%2Fcmd.shutterfly.com%2Fcommands%2Fpictures%2Fgetshareoutslideshowconfig%3Fsite%3Dtestsiteep%26page%3Dtestsiteep%2Fpictures%26node%3D8"
 												   pluginspage="http://www.adobe.com/go/getflashplayer"  allowscriptaccess="always"  allowfullscreen="true"  bgcolor="#869ca7"  src="https://www.shutterfly.com/flashapps/flashslideshow/Slideshow.swf">
 												   </embed>
 												</object>
@@ -214,11 +244,11 @@
 			</li>
 		</ul>
 	</div>
-	
+
 	<script src="javascript/WhyPasadena.js"></script>
 
 
-	<!----------------------Meet the Teams ------------------>	
+	<!----------------------Meet the Teams ------------------>
 	<div class="team" id="meet-the-teams">
 
 			<div id="content">
@@ -227,7 +257,7 @@
 			<br><br><br>
 			<table width  = "100%" align = "center">
 				<tr align = "left">
-					<td class = "title1" width = "20%"></td>  
+					<td class = "title1" width = "20%"></td>
 					<td width = "40%">
 						<div id = "team_titles"data-scrollreveal="enter right after 0.15s over 1s">DISTRICT COORDINATORS</div>
 					</td>
@@ -603,7 +633,7 @@
 			</td>
 		</tr>
 	</table>
-</div> 
+</div>
 	<br><br>
 	</div>
 	</div>
@@ -615,12 +645,12 @@
 
 		<ul class="grid caption-hover">
 				<li>
-					
+
               <div class="view2" data-scrollreveal="enter left after 0.15s over 1s">
 						<a class="popup-with-zoom-anim" href="#small-dialog1">
                         <img class="image-top job-image1">
                         <img class="image-bottom job-background1">
-                       <div class="caption-view"> 
+                       <div class="caption-view">
                        <div class="blur"></div>
 							<div class="caption-text">
                             <h1>Click here to learn more</h1>
@@ -628,19 +658,19 @@
 						</div>
                         </a>
                  		</div>
-                 
+
                   <a class="popup-with-zoom-anim" href="#small-dialog1">
                   <div class="view"><img class="image-top alt-job-image1"></div></a>
-              </div>             
-                 </li>                      
-                 
+              </div>
+                 </li>
+
 				<li>
-					
+
               <div class="view2" data-scrollreveal="enter right after 0.15s over 1s">
 						<a class="popup-with-zoom-anim" href="#small-dialog2">
                         <img class="image-top job-image2">
                         <img class="image-bottom job-background2">
-                       <div class="caption-view"> 
+                       <div class="caption-view">
                        <div class="blur"></div>
 							<div class="caption-text">
                             <h1>Click here to learn more</h1>
@@ -653,41 +683,41 @@
                     <div class="view"><img class="image-top alt-job-image2"></div></a>
                 </div>
                  </li>
-                 
+
 				<li>
-					
+
             <div class="view2" data-scrollreveal="enter left after 0.15s over 1s">
 						<a class="popup-with-zoom-anim" href="#small-dialog3">
                         <img class="image-top job-image3">
                         <img class="image-bottom job-background3">
-                       <div class="caption-view"> 
+                       <div class="caption-view">
                        <div class="blur"></div>
 							<div class="caption-text">
                             <h1>Click here to learn more</h1>
                             </div>
-						</div> 
+						</div>
                         </a>
                         </div>
                 	<a class="popup-with-zoom-anim" href="#small-dialog3">
                     <div class="view"><img class="image-top alt-job-image3"></div></a>
                  </div>
                  </li>
-                 
+
                  <li>
-					
+
             <div class="view2" data-scrollreveal="enter right after 0.15s over 1s">
 						<a class="popup-with-zoom-anim" href="#small-dialog4">
                         <img class="image-top job-image4">
                         <img class="image-bottom job-background4">
-                       <div class="caption-view"> 
+                       <div class="caption-view">
                        <div class="blur"></div>
 							<div class="caption-text">
                             <h1>Click here to learn more</h1>
                             </div>
                         </div>
 						</a>
-                        </div> 
-                        
+                        </div>
+
 					<a class="popup-with-zoom-anim" href="#small-dialog4">
 					<div class="view"><img class="image-top alt-job-image4"></div></a>
                  </div>
@@ -821,7 +851,7 @@
 	<script src="javascript/jquery.magnific-popup.js"></script>
 
 	<script src="javascript/Careers.js"></script>
-		
+
 	</body>
 	<footer>
 	<div id="contact-us"><br>
@@ -865,5 +895,5 @@
 	</div>
 </div>
 	</footer>
-	
+
 </html>

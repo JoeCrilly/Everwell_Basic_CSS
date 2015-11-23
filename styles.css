@@ -14,42 +14,66 @@ body {
     font-family: "Century Gothic";
 }
 
+.navbar {
+  /*margin-top: -10px;*/
+  z-index: 1001;
+  color:#333333;
+  position: fixed;
+  top: 0;
+  left: 0;
+	background-color: transparent;
+  min-height: 50px;
+	/*box-shadow: 3px 3px 3px #888888;*/
+	overflow: visible;
+  width: 100%;
+  text-align: center;
+}
+
+.menu > li {
+  display: inline;
+  font-size: 22px;
+  padding: 30px;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: #333333;
+  font-family: "Arial";
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
 }
 
-html,
-body {
-    height: 100%;
-}
-/*-------Splash Page-------*/	
-	
+/*-------Splash Page-------*/
+
 	.Splash{
 		width: 100%;
 		height: 100%;
 		z-index: 1;
 		overflow: hidden;
 		}
-		
+
+
 	.Splash > img{
 		position: relative;
 		z-index: 1;
 	}
-	
-	.Everwell_logo{
+
+	.Everwell_logo {
 		z-index: 5;
 		position: absolute;
 		margin-top: 100px;
 		padding-left: 30%;
 	}
-	.Everwell_logo> img{
+	.Everwell_logo > img {
 		height: 250px;
 		width:250px;
-		
+
 	}
-	
+
 	.Everwell_text{
 		font-family: "Century Gothic";
 		color: white;
@@ -57,7 +81,7 @@ body {
 		font-weight: bold;
 		margin-top: 20px;
 	}
-	
+
 	.button{
 		z-index: 5;
 		position: absolute;
@@ -77,7 +101,7 @@ body {
 		width: auto;
 		border: 2px solid rgba(255,255,255,.5);
 	}
-	
+
 	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait){
 	.Splash{
 	width: 100%;
@@ -85,12 +109,12 @@ body {
 	z-index: 1;
 	overflow: hidden;
 		}
-		
+
 	.Splash > img{
 		position: relative;
 		z-index: 1;
 	}
-	
+
 	.Everwell_logo{
 		z-index: 5;
 		position: absolute;
@@ -100,9 +124,9 @@ body {
 	.Everwell_logo> img{
 		height: 150px;
 		width:150px;
-		
+
 	}
-	
+
 	.Everwell_text{
 		font-family: "Century Gothic";
 		color: white;
@@ -110,7 +134,7 @@ body {
 		font-weight: bold;
 		margin-top: 5px;
 	}
-	
+
 	.button{
 		z-index: 5;
 		position: absolute;
@@ -138,12 +162,12 @@ body {
 	z-index: 1;
 	overflow: hidden;
 		}
-		
+
 	.Splash > img{
 		position: relative;
 		z-index: 1;
 	}
-	
+
 	.Everwell_logo{
 		z-index: 5;
 		position: absolute;
@@ -153,9 +177,9 @@ body {
 	.Everwell_logo> img{
 		height: 150px;
 		width:150px;
-		
+
 	}
-	
+
 	.Everwell_text{
 		font-family: "Century Gothic";
 		color: white;
@@ -164,7 +188,7 @@ body {
 		margin-top: 5px;
 		font-size: 15;
 	}
-	
+
 	.button{
 		z-index: 5;
 		position: absolute;
@@ -187,8 +211,8 @@ body {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait){
 
-		
-	
+
+
 	.Everwell_logo{
 		z-index: 5;
 		position: absolute;
@@ -198,7 +222,7 @@ body {
 	.Everwell_logo> img{
 		height: 150px;
 		width:150px;
-		
+
 	}
 
 	.button{
@@ -221,9 +245,9 @@ body {
 	.Everwell_logo> img{
 		height: 250px;
 		width:250px;
-		
+
 	}
-	
+
 	.button{
 		z-index: 5;
 		position: absolute;
@@ -243,9 +267,9 @@ body {
 	.Everwell_logo> img{
 		height: 250px;
 		width:250px;
-		
+
 	}
-	
+
 	.button{
 		z-index: 5;
 		position: absolute;
@@ -256,7 +280,7 @@ body {
 /*-------What Is Everwell-------*/
 
 	.what_is_everwell{
-		background-color: white; 
+		background-color: white;
 		font-family: "Century Gothic";
 	}
 
@@ -283,7 +307,7 @@ body {
 
    .what-image2{
     	display: none;
-   } 
+   }
 
 
 	.no-focus-border:focus{
@@ -299,7 +323,7 @@ body {
 	}
 
 	/* Mobile size Portrait CSS*/
-	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) { 
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
 
 		.slider {
 			width: 260px;
@@ -322,7 +346,7 @@ body {
     		display: block;
     		width: 260px;
 			height: 210px;
-			position: center;	
+			position: center;
    		}
 
 		#wrapper {
@@ -333,7 +357,7 @@ body {
 	}
 
 	/* Mobile size Landscape CSS*/
-	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) { 
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
 
 		.slider {
 			width: 280px;
@@ -356,7 +380,7 @@ body {
     		display: block;
     		width: 280px;
 			height: 230px;
-			position: center;	
+			position: center;
    		}
 
 		#wrapper {
@@ -399,8 +423,8 @@ body {
 			text-align: center;
 		}
 	}
-/* 
-		@media only screen and (min-width: 320px) and (max-width: 850px) and (orientation: portrait) { 
+/*
+		@media only screen and (min-width: 320px) and (max-width: 850px) and (orientation: portrait) {
 		zoom in and out on desktop
 
 		.slider{
@@ -424,7 +448,7 @@ body {
     	display: block;
     	width: 300px;
 		height: 300px;
-		position: center;	
+		position: center;
    		}
 
 
@@ -436,7 +460,7 @@ body {
 
 	} */
 
-/*-------Businesses need you-------*/	
+/*-------Businesses need you-------*/
 
 	.business-image {
 	  height: 400px;
@@ -457,14 +481,14 @@ body {
 	  width: 100%;
 	  z-index: 500;
 	}
-	
-/*-------Why Pasadena-------*/	
+
+/*-------Why Pasadena-------*/
 	.why-pasadena {
 		font-family: "Century Gothic";
 	}
 
 	.passvid{
-  
+
 	  list-style: none;
 	  margin: 0;
 	  display: -webkit-box;
@@ -487,9 +511,9 @@ body {
 	  display: flex;
 
 	  -webkit-flex-flow: row wrap;
-	  justify-content: space-around;  
+	  justify-content: space-around;
 	}
-	  
+
 	#container1 {
     position: relative;
     display: inline-block;
@@ -537,8 +561,8 @@ body {
     overflow: auto;
     margin-top: 0px;
     border: 3px solid black;
-    
-  } 
+
+  }
 
   .event {
     width: 100%;
@@ -559,7 +583,7 @@ body {
     flex-flow: column wrap;
 
     text-align: center;
-    padding: 10px; 
+    padding: 10px;
 	}
 .evntgall {
     display: none;
@@ -568,7 +592,7 @@ body {
     .tablet-display{
     	display: none;
     }
-	
+
 }
 
 	/* Tablet size Landscape CSS*/
@@ -587,13 +611,13 @@ body {
     flex-flow: column wrap;
 
     text-align: center;
-    padding: 10px; 	
-	
+    padding: 10px;
+
 	}
 .evntgall {
     display: none;
     }
-	
+
 }
   @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
 .why-pasadena{
@@ -603,18 +627,18 @@ body {
     flex-flow: column wrap;
 
     text-align: center;
-    padding: 10px; 	
-	
+    padding: 10px;
+
 	}
 .evntgall {
     display: none;
     }
-	
+
 }
 
 
 
-	
+
 /*-------Meet the Teams/Regional Director-------*/
 
 @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation:portrait){
@@ -881,35 +905,35 @@ h2.position-caption {
   margin-bottom: -15px;
 }
 
-.view2 .job-image1 {	
+.view2 .job-image1 {
 	content:url("images/Job-images/1a.png");
 }
 
-.view2 .job-image2 {	
+.view2 .job-image2 {
 	content:url("images/Job-images/2a.png");
 }
 
-.view2 .job-image3 {	
+.view2 .job-image3 {
 	content:url("images/Job-images/3a.png");
 }
 
-.view2 .job-image4 {	
+.view2 .job-image4 {
 	content:url("images/Job-images/4a.png");
 }
 
-.view2 .job-background1 {	
+.view2 .job-background1 {
 	content:url("images/Job-images/1.png");
 }
 
-.view2 .job-background2 {	
+.view2 .job-background2 {
 	content:url("images/Job-images/2.png");
 }
 
-.view2 .job-background3 {	
+.view2 .job-background3 {
 	content:url("images/Job-images/3.png");
 }
 
-.view2 .job-background4 {	
+.view2 .job-background4 {
 	content:url("images/Job-images/4.png");
 }
 
@@ -1046,7 +1070,7 @@ select {
 	position: relative;
   	left:25%;
 	top:-80px;
-	display: inline-block;	
+	display: inline-block;
 	justify-content: center; /* align horizontal */
 	align-items: center; /* align vertical */
 }
@@ -1054,7 +1078,7 @@ select {
 .btn-apply2 {
 	text-decoration:none;
 }
-	
+
 a.btn-apply2:hover, a.btn-apply2:active {color: white;}
 
 a.btn-apply2:visited {
@@ -1074,12 +1098,12 @@ a.btn-apply2:link {
 }
 
 /* Large desktop */
-@media (min-width: 980px) { 
-.view { display: none; } 
+@media (min-width: 980px) {
+.view { display: none; }
 .image-top{position: absolute;}}
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { .view { display: none; } 
+@media (min-width: 768px) and (max-width: 979px) { .view { display: none; }
 .image-top{position: absolute;}}
 
 /* Landscape phone to portrait tablet */
@@ -1092,7 +1116,7 @@ a.btn-apply2:link {
 
 
 /* Large desktop */
-@media (min-width: 980px) { 
+@media (min-width: 980px) {
 
 .grid li {
 	display: inline-block;
@@ -1101,11 +1125,11 @@ a.btn-apply2:link {
 	padding: 20px;
 	text-align: left;
 	position: relative;
-	
+
 } }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
+@media (min-width: 768px) and (max-width: 979px) {
 .grid li {
 	display: inline-block;
 	width: 410px;
@@ -1116,46 +1140,46 @@ a.btn-apply2:link {
 }}
 
 /* Landscape phone to portrait tablet */
-@media only screen and (min-width: 569px) and (max-width: 767px) { 
+@media only screen and (min-width: 569px) and (max-width: 767px) {
 
-.grid { 
+.grid {
 	width:820%;
 	max-width: 100%;
-	margin: 0 auto;		 
-} 
-		 
+	margin: 0 auto;
+}
+
 .grid li {
 	display: inline-block;
 	width: 240px;
-	margin-bottom:10px;	
-	margin-right:-20px;	
-	margin-left:-20px;	
-	position: relative;			
+	margin-bottom:10px;
+	margin-right:-20px;
+	margin-left:-20px;
+	position: relative;
 } }
 
 /* Landscape phones and down */
-@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:portrait) { 
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:portrait) {
 
-.grid { 
+.grid {
 	width:420%;
 	max-width: 100%;
 	margin: 0 auto;
 }
-		 
+
 .grid li {
 	display: inline-block;
 	width: 170px;
-	margin-bottom:10px;	
-	position: relative;			
-} 
-	 
-.grid li {	
-	margin-right:-20px;	
-	margin-left:-20px;			
-} 
+	margin-bottom:10px;
+	position: relative;
+}
 
-.grid li img {	
-	width:85%;	
+.grid li {
+	margin-right:-20px;
+	margin-left:-20px;
+}
+
+.grid li img {
+	width:85%;
 }
 
 .btn-apply2 h2 {
@@ -1164,28 +1188,28 @@ a.btn-apply2:link {
 }}
 
 /* Landscape phones and down */
-@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:landscape) { 
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:landscape) {
 
-.grid { 
+.grid {
 	width:420%;
 	max-width: 101%;
 	margin: 0 auto;
 }
-		 
+
 .grid li {
 	display: inline-table;
 	width: 170px;
-	margin-bottom:10px;	
-	position: relative;			
-} 
-	 
-.grid li {	
-	margin-right:-20px;	
-	margin-left:-25px;			
-} 
+	margin-bottom:10px;
+	position: relative;
+}
 
-.grid li img {	
-	width:80%;	
+.grid li {
+	margin-right:-20px;
+	margin-left:-25px;
+}
+
+.grid li img {
+	width:80%;
 }
 
 }
@@ -1193,7 +1217,7 @@ a.btn-apply2:link {
 
 /* Caption Hover for available position section  */
 .caption-hover li{
-			
+
 	padding: 0px;
 	position: relative;
 	overflow: hidden;
@@ -1214,7 +1238,7 @@ a.btn-apply2:link {
 	-webkit-transform:translateY(-20px);
 	-moz-transform:translateY(-20px);
 	-ms-transform:translateY(-20px);
-	-o-transform:translateY(-20px);	
+	-o-transform:translateY(-20px);
 }
 
 .caption-hover img{
@@ -1267,14 +1291,14 @@ a.btn-apply2:link {
 	top:10px;
 }
 
-.view2 img { -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; } 
+.view2 img { -webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; -o-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 
-.image-top, .view2:hover .image-bottom { -webkit-opacity: 1; -moz-opacity: 1; opacity: 1; } 
+.image-top, .view2:hover .image-bottom { -webkit-opacity: 1; -moz-opacity: 1; opacity: 1; }
 
 .view2:hover .image-top, .image-bottom { -webkit-opacity: 0; -moz-opacity: 0; opacity: 0; }
 
-		
-		
+
+
 /*-------Contact Us/Map-------*/
 
 .google-map {
@@ -1350,4 +1374,4 @@ a.btn-apply2:link {
 .careers-section > h2 {
   text-align: center;
   padding-top: 50px;
-}		
+}

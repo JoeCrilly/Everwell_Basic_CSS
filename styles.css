@@ -329,15 +329,15 @@ body {
 	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
 
 		.slider {
-			width: 260px;
+			width: 230px;
 			height: 230px;
 			margin: 10px auto;
 			background: transparent;
 		}
 
 		.slider img {
-	    	width: 260px;
-			height: 210px;
+	    	width: 230px;
+			height: 230px;
 			position: center;
 		}
 
@@ -347,8 +347,8 @@ body {
 
    		.what-image2 {
     		display: block;
-    		width: 260px;
-			height: 210px;
+    		width: 230px;
+			height: 230px;
 			position: center;
    		}
 
@@ -448,6 +448,19 @@ body {
 	  width: 100%;
 	  z-index: 500;
 	}
+
+	/* Mobile size Portrait CSS*/
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+		.business-text > h1{
+			position: relative;
+			color: #fff;
+			z-index: 1000;
+			font-weight: bold;
+			font-family: "Century Gothic";
+
+
+		}
+	}	
 
 /*-------Why Pasadena-------*/
 	.why-pasadena {
@@ -584,6 +597,13 @@ body {
 .evntgall {
     display: none;
     }
+
+.caption > h2{
+    padding-top:35px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+  }
 
 }
   @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){

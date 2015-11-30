@@ -3,15 +3,15 @@
 
 /*-------What Is Everwell-------*/
 	.slider {
-			width: 260px;
+			width: 230px;
 			height: 230px;
 			margin: 10px auto;
 			background: transparent;
 	}
 
 	.slider img {
-	    	width: 260px;
-			height: 210px;
+	    	width: 230px;
+			height: 230px;
 			position: center;
 	}
 
@@ -21,8 +21,8 @@
 
    	.what-image2 {
     		display: block;
-    		width: 260px;
-			height: 210px;
+    		width: 230px;
+			height: 230px;
 			position: center;
    	}
 

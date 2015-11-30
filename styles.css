@@ -85,24 +85,23 @@ body {
 		margin-top: 20px;
 	}
 
-	.button{
+	.splashbutton{
 		z-index: 5;
 		position: absolute;
 		margin-top: 470px;
-		margin-left: 45%;
-		height: 80px;
-		width: 150px;
-		font-size: 13px;
-		font-weight: 800;
+		margin-left: 43%;
+		height: 25px;
+		width: 180px;
+		font-size: 17px;
+		font-weight: bold;
 		text-align:center;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		font-family: "Century Gothic";
 		color: white;
 		background:rgba(0, 0, 0, .75);
-		height: auto;
-		width: auto;
 		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
 	}
 
 	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait){
@@ -137,26 +136,25 @@ body {
 		font-weight: bold;
 		margin-top: 5px;
 	}
-
-	.button{
+		.splashbutton{
 		z-index: 5;
 		position: absolute;
 		margin-top: 470px;
-		margin-left: 30%;
-		height: 80px;
-		width: 150px;
-		font-size: 13px;
-		font-weight: 800;
+		margin-left: 22%;
+		height: 25px;
+		width: 180px;
+		font-size: 17px;
+		font-weight: bold;
 		text-align:center;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		font-family: "Century Gothic";
 		color: white;
 		background:rgba(0, 0, 0, .75);
-		height: auto;
-		width: auto;
 		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
 	}
+
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape){
 	.Splash{
@@ -192,50 +190,26 @@ body {
 		font-size: 15;
 	}
 
-	.button{
+	.splashbutton{
 		z-index: 5;
 		position: absolute;
-		margin-top: 280px;
-		margin-left: 37%;
-		height: 80px;
-		width: 150px;
-		font-size: 13px;
-		font-weight: 800;
+		margin-top: 270px;
+		margin-left: 35%;
+		height: 25px;
+		width: 180px;
+		font-size: 17px;
+		font-weight: bold;
 		text-align:center;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		font-family: "Century Gothic";
 		color: white;
 		background:rgba(0, 0, 0, .75);
-		height: auto;
-		width: auto;
 		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
 	}
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait){
 
-
-
-	.Everwell_logo{
-		z-index: 5;
-		position: absolute;
-		margin-top: 30px;
-		padding-left: 2%;
-	}
-	.Everwell_logo> img{
-		height: 150px;
-		width:150px;
-
-	}
-
-	.button{
-		z-index: 5;
-		position: absolute;
-		margin-top: 470px;
-		margin-left: 30%;
-
-	}
-}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
 
 	.Everwell_logo{
@@ -251,11 +225,11 @@ body {
 
 	}
 
-	.button{
+	.splashbutton{
 		z-index: 5;
 		position: absolute;
 		margin-top:768px;
-		margin-left: 42%;
+		margin-left: 38.5%;
 	}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
@@ -273,10 +247,10 @@ body {
 
 	}
 
-	.button{
+	.splashbutton{
 		z-index: 5;
 		position: absolute;
-		margin-top:600px;
+		margin-top:610px;
 		margin-left: 42%;
 	}
 }

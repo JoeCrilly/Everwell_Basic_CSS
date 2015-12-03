@@ -594,6 +594,12 @@ body {
 .evntgall {
     display: none;
     }
+	.caption > h2{
+    padding-top:35px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+  }
 
 }
 

@@ -254,6 +254,50 @@ body {
 		margin-left: 42%;
 	}
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 200px;
+		padding-left: 2%;
+		font-size: 25;
+	}
+	.Everwell_logo> img{
+		height: 250px;
+		width:250px;
+
+	}
+
+	.splashbutton{
+		z-index: 5;
+		position: absolute;
+		margin-top:768px;
+		margin-left: 38.5%;
+	}
+}
+@media only screen and (max-device-width: 768px) and (min-device-width: 568px) and (orientation: landscape){
+
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 50px;
+		padding-left: 18%;
+		font-size: 15;
+	}
+	.Everwell_logo> img{
+		height: 150px;
+		width:150px;
+
+	}
+
+	.splashbutton{
+		z-index: 5;
+		position: absolute;
+		margin-top:330px;
+		margin-left: 38.5%;
+	}
+}
 /*-------What Is Everwell-------*/
 
 	.what_is_everwell{
@@ -345,6 +389,38 @@ body {
 
 		.slider img {
 	    	width: 280px;
+			height: 230px;
+			position: center;
+		}
+
+   		.what-image1 {
+   	   		display: none;
+   		}
+
+   		.what-image2 {
+    		display: block;
+    		width: 280px;
+			height: 280px;
+			position: center;
+   		}
+
+		#wrapper {
+			font: 8pt normal Arial, sans-serif;
+			height: auto;
+			text-align: center;
+		}
+	}
+	@media only screen and (min-device-width: 568px) and (max-device-width: 768px) and (orientation: landscape) {
+
+		.slider {
+			width: 280px;
+			height: 280px;
+			margin: 10px auto;
+			background: transparent;
+		}
+
+		.slider img {
+	    	width: 230px;
 			height: 230px;
 			position: center;
 		}
@@ -555,6 +631,30 @@ body {
 			display: none;
 		}
 	}
+	
+	
+	@media only screen and (max-device-width : 768px) and (min-device-width : 568px) and (orientation : landscape){
+.why-pasadena{
+}
+  .passvid {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+
+    text-align: center;
+    padding: 10px;
+
+	}
+.evntgall {
+    display: none;
+    }
+	.caption > h2{
+    padding-top:35px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+  }
+
+}
 
   @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait){
 .why-pasadena{
@@ -941,7 +1041,14 @@ body {
 	}
 }
 
-
+@media only screen and (min-device-width : 568px) and (max-device-width : 768px) and (orientation : landscape){
+  .team{
+    display: none;
+		}
+	.regdir{
+	display: none;
+	}
+}
  
 /*Mobile CSS- Landscape*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){

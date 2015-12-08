@@ -251,7 +251,11 @@ body {
 		z-index: 5;
 		position: absolute;
 		margin-top:610px;
-		margin-left: 42%;
+		margin-left: 34.5%;
+		height: 50px;
+		width: 300px;
+		font-size: 25px;
+		padding: 6px;
 	}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
@@ -273,10 +277,14 @@ body {
 		z-index: 5;
 		position: absolute;
 		margin-top:768px;
-		margin-left: 38.5%;
+		margin-left: 31.5%;
+		height: 50px;
+		width: 300px;
+		font-size: 25px;
+		padding: 6px;
 	}
 }
-@media only screen and (max-device-width: 768px) and (min-device-width: 568px) and (orientation: landscape){
+@media only screen and (max-device-width: 768px) and (min-device-width: 569px) and (orientation: landscape){
 
 	.Everwell_logo{
 		z-index: 5;
@@ -608,13 +616,6 @@ body {
  /* the following is for tablet --to be removed after css for tablet is complete  */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
 
-  .passvid {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-
-    text-align: center;
-    padding: 10px;
-	}
 .evntgall {
     display: none;
     }

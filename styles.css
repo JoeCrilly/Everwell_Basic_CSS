@@ -16,39 +16,12 @@ body {
 
 }
 
-.navbar {
-  /*margin-top: -10px;*/
-  z-index: 1001;
-  color:#555555;
-  position: fixed;
-  top: 0;
-  left: 0;
-	background-color: transparent;
-  min-height: 50px;
-	/*box-shadow: 3px 3px 3px #888888;*/
-	overflow: visible;
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
+/*-----------Navigation----------*/
+.navigation{
+	position: fixed;
+	z-index: 100000;
 }
 
-.menu > li {
-  display: inline;
-  font-size: 22px;
-  padding: 30px;
-}
-
-.menu > li > a {
-  text-decoration: none;
-  color: #555555;
-  font-family: "Century Gothic";
-}
-
-.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
 
 /*-------Splash Page-------*/
 
@@ -88,7 +61,7 @@ body {
 	.splashbutton{
 		z-index: 5;
 		position: absolute;
-		margin-top: 470px;
+		margin-top: 490px;
 		margin-left: 43%;
 		height: 25px;
 		width: 180px;
@@ -120,7 +93,7 @@ body {
 	.Everwell_logo{
 		z-index: 5;
 		position: absolute;
-		margin-top: 30px;
+		margin-top: 55px;
 		padding-left: 2%;
 	}
 	.Everwell_logo> img{
@@ -172,8 +145,8 @@ body {
 	.Everwell_logo{
 		z-index: 5;
 		position: absolute;
-		margin-top: 10px;
-		padding-left: 6%;
+		margin-top: 50px;
+		padding-left: 16%;
 	}
 	.Everwell_logo> img{
 		height: 150px;
@@ -187,13 +160,13 @@ body {
 		text-shadow: 2px 2px grey;
 		font-weight: bold;
 		margin-top: 5px;
-		font-size: 15;
+		font-size: 12;
 	}
 
 	.splashbutton{
 		z-index: 5;
 		position: absolute;
-		margin-top: 270px;
+		margin-top: 280px;
 		margin-left: 35%;
 		height: 25px;
 		width: 180px;
@@ -307,7 +280,9 @@ body {
 	}
 }
 /*-------What Is Everwell-------*/
-
+	#everwell{
+	padding-top: 30px;
+	}
 	.what_is_everwell{
 		background-color: white;
 		font-family: "Century Gothic";
@@ -521,6 +496,9 @@ body {
 	}	
 
 /*-------Why Pasadena-------*/
+    #pasadena{
+		padding: 30px;
+	}
 	.why-pasadena {
 		font-family: "Century Gothic";
 	}
@@ -708,7 +686,9 @@ body {
 
 
 /*-------Meet the Teams/Regional Director-------*/
-
+	#teams{
+	
+	}
 	.team{
 		background-image: url("images/Metro 2.jpg");
 		background-size: 100% 100%;
@@ -1071,6 +1051,10 @@ body {
 }
 
 /*-----------Career section------------ */
+
+#careers{
+padding: 30px;
+}
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 

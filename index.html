@@ -4,7 +4,13 @@
 <head>
 	<title>Everwell Pasadena</title>
 	<script type='text/javascript' src='http://demo.themeisle.com/zerif-pro/wp-content/themes/zerif-pro/js/scrollReveal.min.js?ver=20120206'></script>
-
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/navbar.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="javascript/navbar.js"></script>
+	
 	<!--General CSS - desktop-->
 	<link rel="stylesheet" type="text/css" href="styles.css"/>
 
@@ -28,17 +34,20 @@
 </head>
 
 
-	<header class="header">
-		<div class = "navbar">
-			<ul class="menu">
-				<li><a href="#what_is_everwell">WHAT IS EVERWELL</a></li>
-				<li><a href="#why-pasadena">WHY PASADENA</a></li>
-				<li><a href="#team">MEET THE TEAMS</a></li>
-				<li><a href="#careers">CAREERS</a></li>
-				<li><a href="#contact-us">CONTACT US</a></li>
-				<li><a href="">LOG IN</a></li>
+	<header>
+	<div class = "navigation">
+		<div id='cssmenu'>
+			<ul>
+			   <li class='active'><a href='#everwell' class = "scroll">What is Everwell?</a></li>
+			   <li><a href='#pasadena' class = "scroll">Why Pasadena?</a></li>
+			   <li><a href='#teams' class = "scroll">Meet The Teams</a></li>
+			   <li><a href='#careers' class = "scroll">Careers</a></li>
+			   <li><a href='#contact-us'class = "scroll">Contact Us</a></li>
+			   <li><a href='#'>Login</a></li>
 			</ul>
-		</div>
+			</div>
+			<script src="javascript/smooth.js"></script>
+	</div>
 		<div class = "Everwell_logo" align = "center" >
 			<img src="images/logo.png">
 			<div class = "Everwell_text">
@@ -56,32 +65,12 @@
 
 		<script type="text/javascript" src ="javascript/SplashPage.js"></script>
 		<script type="text/javascript" src="slick/slick.min.js"></script>
-
-		<script>
-		$(document).ready(function(){
-				 var scroll_start = 0;
-				 var startchange = $('#startchange');
-				 var offset = startchange.offset();
-					if (startchange.length){
-				 $(document).scroll(function() {
-						scroll_start = $(this).scrollTop();
-						if(scroll_start > offset.top) {
-							$('.navbar').css({'background-color': 'white', 'box-shadow': '3px 3px 3px #888888'});
-							$('.menu > li > a').css('color', 'black');
-						 } else {
-							 $('.navbar').css({'background-color': 'transparent', 'box-shadow': 'none'});
-							 $('.menu > li > a').css('color', '#333333');
-						 }
-				 });
-					}
-			});
-			</script>
 	</header>
 
 	<body>
 	<!---------------------------What is Everwell-------------------->
 
-
+	<div id = "everwell"></div>
 		<div class = "what_is_everwell" id="startchange">
 			<h2 align = "center"><strong>WHAT IS EVERWELL?</strong></h2>
 			<div class="slider" data-scrollreveal="enter right after 0.15s over 1s">
@@ -106,6 +95,7 @@
 
 
 		<!----------------------Why Pasadena ---------------->
+		<div id = "pasadena"></div>
 		<div class = "why-pasadena"><h2 align = "center"><strong>WHY PASADENA?</strong></h2></div>
 		<br><br>
 
@@ -147,7 +137,7 @@
 												   pluginspage="http://www.adobe.com/go/getflashplayer"  allowscriptaccess="always"  allowfullscreen="true"  bgcolor="#869ca7"  src="https://www.shutterfly.com/flashapps/flashslideshow/Slideshow.swf">
 												   </embed>
 												</object>
-					<p style="width:500px;margin-top:0;text-align:center;"><a rel="nofollow" href="https://testsiteep.shutterfly.com/pictures/8?eid=116" data-scrollreveal="enter left after 0.15s over 3s"> <div class = "gallery caption"><h2><strong>GALLERY</strong></h2></div></a><img width="1" height="1" border="0" style="padding: 0; background: #ffffff; border: none; box-shadow: none;" src="https://os.shutterfly.com/b/ss/sflyshareprod/1/H.15/111?pageName=sharekey&c1=pictures&c2=embed"/></p>
+					<p style="width:500px;margin-top:0;text-align:center;"><a rel="nofollow"  data-scrollreveal="enter left after 0.15s over 3s"> <div class = "gallery caption"><h2><strong>GALLERY</strong></h2></div></a><img width="1" height="1" border="0" style="padding: 0; background: #ffffff; border: none; box-shadow: none;" src="https://os.shutterfly.com/b/ss/sflyshareprod/1/H.15/111?pageName=sharekey&c1=pictures&c2=embed"/></p>
 				</div>
 			</li>
 			<li>
@@ -181,6 +171,7 @@
 
 
 	<!----------------------Meet the Teams ------------------>
+	<div id = "teams"></div>
 	<div class="team" id="meet-the-teams">
 
 			<div id="content">
@@ -572,7 +563,7 @@
 
 <!-----------Career Section---------------->
 
-
+<div id = "careers"></div>
 		<h2 class="position-caption">AVAILABLE POSITIONS</h2>
 
 		<ul class="grid caption-hover">
